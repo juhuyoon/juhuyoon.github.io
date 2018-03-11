@@ -1,60 +1,94 @@
 <!doctype html>
-<html>
-
+<html lang="en">
+ 
+  <script type="text/javascript">
+    var host = 'junghoonyoon.com';
+    if (host == window.location.host && window.location.protocol != 'https:')
+      window.location.protocol = 'https';
+  </script>⁠⁠
     <head>
         <title>Junghoon Yoon</title>
-        <link href="css/main.css" rel="stylesheet" type="text/css" /> <!-- //https://teamtreehouse.com/community/cant-get-my-css-document-file-to-link-to-html-document-file//-->
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="canonical" href="junghoonyoon.com" />
+        <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="Junghoon Yoon || MERN Stack &amp; Full Stack Web/Mobile Engineer| Finding Functionality through Design">
+          <meta name="author" content="Junghoon Yoon || juhuyoon">
+          <meta name="keywords" content="Junghoon Yoon, Jung Yoon, juhuyoon, Junghoon Yoon, JavaScript, MERN, MySQL, Full Stack, Web,Mobile, Engineer, developer">
+          <meta meta name="theme-color" content="#848484">
+          <meta meta name="copyright" content="© Copyright 2018 - Junghoon Yoon">
+          <meta property="og:title" content="Junghoon Yoon | JavaScript React &amp; MERN MySQL &amp; Web Developer">
+          <meta property="og:image" content="">
+          <meta property="og:url" content="juhuyoon.com">
+          <meta property="og:site-name" content="Junghoon Yoon | JavaScript React &amp; MERN MySQL &amp; Web Developer">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+          <link rel="icon" href="images/tabicon.png">
+          <link rel="stylesheet" href="css/index.css">
 
-    </head>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet" type="text/css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+          <script>
+            $(document).ready(function () {
+              $('body').addClass('animated fadeIn');
+              $('#pixie').addClass('animated fadeIn');
+              $('#i-text').addClass('animated fadeInDown');
+              $('#logo-main').addClass('animated fadeInUp');
+            });
+          </script>
+</head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
-  <a class="navbar-brand" href="#">Jung's Site</a>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link enabled" href="About.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link enabled" href="Resume.html">Resume</a>
-      </li><li class="nav-item">
-        <a class="nav-link enabled" href="Blog.html">Blog</a> 
-      </li><li class="nav-item">
-        <a class="nav-link enabled" href="Contact.html">Contact</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-fixed-top topnav" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+  
+        <a class="navbar-brand topnav" href="http://juhuyoon.github.io">
+          <div id="name">
+            <p>
+              <span id="first-name">Junghoon </span>
+              <span id="last-name">Yoon</span>
+            </p>
+          </div>
+        </a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li> 
+            <a href="http://juhuyoon.github.io">Home</a>
+          </li>
+          <li>
+            <a href="http://juhuyoon.github.io/work.html">Work</a>
+          </li>
+          <li>
+            <a href="http://juhuyoon.github.io/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="home-section">
+    <p id="i-text">Finding Functionality through Design</p>
+    <img id="logo-main" class="img-responsive center-block" src="images/logo.png" />
+    <canvas id="pixie">
+    </canvas>
+    <img id="mountains" class="img-responsive" src="images/mountain.jpeg" />
+  
   </div>
-</nav>
-<div class="header_index">
-<div class="indexcol2"> <b>Welcome to my page!</b> </div> 
-<div class="indexcol2"><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYwAAAAJGM5OWFjM2FkLTJkZGMtNDllMS04NGU5LTU1ZGVhOThjZDNjYQ.jpg"></div>
+  
+  <script src="js/index.js"></script>
 
-</div>
-<div class="index_container">
-
-<div class="indexcol">  <p>As a Georgia Tech Coding Boot camp student, I am currently stepping into the world of technology, coding and development.</p>
-                        <br> 
-                        <p> I look forward to developing my skills as a developer and bring into a team a positive mindset, insight, dedication, and precision that will
-                            bring about positive change. </div>
-
-</div>
-
-<footer> &copy; 2017 my site </footer>
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
-
 </html>
-
