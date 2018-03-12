@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-body,
-html {
+body, html {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
@@ -16,22 +14,19 @@ html {
 	padding: 0px;
 }
 
-.icon-bar {
-	background-color: #ffffff;
-}
 
 #first-name {
-	color: #f8bbd0;
+	color: #6b6b6b;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.9em;
 	font-weight: 300;
 	transition: all 1s ease;
 }
 
 #last-name {
-	color: #ffffff;
+	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.9em;
 	font-weight: 300;
 	transition: all 1s ease;
 }
@@ -54,7 +49,7 @@ html {
 #name:focus #last-name,
 #name:active #last-name {
 	background: transparent;
-	color: #f8bbd0;
+	color:#836b6b;
 	outline: none;
 	transition: all 1s ease;
 }
@@ -76,7 +71,7 @@ html {
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus,
 .topnav ul.navbar-nav li a:active {
-	color: #f8bbd0;
+	color: #ec8d10;
 	background: transparent;
 	transition: all 1s ease;
 	outline: none;
@@ -89,16 +84,10 @@ html {
 	width: 100%;
 }
 
-#pixie {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#i-text {
+#main-text {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	color: #ffffff;
+	color: black;
 	font-size: 5em;
 	text-align: center;
 	position: relative;
@@ -107,6 +96,7 @@ html {
 	-moz-animation-duration: 2s;
 	-o-animation-duration: 2s;
 	-webkit-animation-duration: 2s;
+	z-index: 1;
 }
 
 #logo-main {
@@ -128,6 +118,7 @@ html {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
+	z-index: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -151,8 +142,3 @@ html {
 		outline: none;
 	}
 }
-=======
-p {
-	font-size: 50px;
-}
->>>>>>> c43e033fa65cfa6661ebad50db3a90ccd397ca85

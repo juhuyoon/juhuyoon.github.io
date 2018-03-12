@@ -23,7 +23,7 @@
           <meta property="og:site-name" content="Junghoon Yoon | JavaScript React &amp; MERN MySQL &amp; Web Developer">
 
           <link rel="icon" href="images/tabicon.png">
-          <link rel="stylesheet" href="css/index.css">
+          <link rel="stylesheet" href="css/main.css">
 
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -36,22 +36,17 @@
             $(document).ready(function () {
               $('body').addClass('animated fadeIn');
               $('#pixie').addClass('animated fadeIn');
-              $('#i-text').addClass('animated fadeInDown');
+              $('#main-text').addClass('animated fadeInDown');
               $('#logo-main').addClass('animated fadeInUp');
             });
           </script>
 </head>
 
 <body>
+<div id="home-section">
   <nav class="navbar navbar-fixed-top topnav" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-  
         <a class="navbar-brand topnav" href="http://juhuyoon.github.io">
           <div id="name">
             <p>
@@ -62,6 +57,7 @@
         </a>
       </div>
   
+      
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li> 
@@ -78,16 +74,13 @@
     </div>
   </nav>
   
-  <div id="home-section">
-    <p id="i-text">Finding Functionality through Design</p>
-    <img id="logo-main" class="img-responsive center-block" src="images/logo.png" />
-    <canvas id="pixie">
-    </canvas>
+
+    <p id="main-text">Finding Functionality through Design</p>
+    <img id="logo-main" class="img-responsive right-block" src="images/logo.png" />
     <img id="mountains" class="img-responsive" src="images/mountain.jpeg" />
   
-  </div>
   
-  <script src="js/index.js"></script>
+</div>
 
 </body>
 
