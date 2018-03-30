@@ -4,7 +4,6 @@ body, html {
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-	background: #080808;
 }
 
 .topnav {
@@ -79,7 +78,6 @@ body, html {
 
 #home-section {
 	background-size: cover;
-	background: #080808;
 	height: 100%;
 	width: 100%;
 }

@@ -82,6 +82,7 @@ body, html {
 
 .container {
     background: #6b6b6b;
+    z-index: -1;
 }
 
 #work-section {
@@ -104,6 +105,7 @@ body, html {
     -moz-animation-duration: 2s;
     -o-animation-duration: 2s;
     -webkit-animation-duration: 2s;
+    z-index: 1;
 }
 
 .row {
@@ -142,7 +144,7 @@ body, html {
     position: absolute;
     width: 100%;
     bottom: 0;
-    z-index: 0;
+    z-index: -1;
 }
 
 #pf-description {
@@ -177,13 +179,7 @@ body, html {
     text-decoration: none;
 }
 
-#images1 {
-    background: url('../images/s1.jpg') center / cover;
-}
 
-#images2 {
-    background: url('../images/s3.jpg') center / cover;
-}
 
 @media only screen and (max-width: 600px) {
     #i-text {
