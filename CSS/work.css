@@ -4,8 +4,10 @@ body, html {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background: #6b6b6b;
+     background: #6b6b6b;
 }
+
+
 
 .topnav {
     background-color: transparent;
@@ -14,20 +16,26 @@ body, html {
     padding: 0px;
 }
 
+.navbar {
+    background: black;
+}
+
 #first-name {
-    color: white;
+    color: #6b6b6b;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.9em;
+    font-size: 2.1rem;
     font-weight: 300;
     transition: all 1s ease;
+    background-color: transparent;
 }
 
 #last-name {
-    color: white;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.9em;
+    font-size: 2.1em;
     font-weight: 300;
     transition: all 1s ease;
+    background-color: transparent;
 }
 
 #name {
@@ -47,11 +55,12 @@ body, html {
 #name:hover #last-name,
 #name:focus #last-name,
 #name:active #last-name {
-    background: transparent;
-    color: #836b6b;
+    color: #6b6b6b;
     outline: none;
     transition: all 1s ease;
+    background-color: transparent;
 }
+
 
 .nav {
     padding-right: 10px;
@@ -81,13 +90,13 @@ body, html {
 }
 
 .container {
-    background: #6b6b6b;
+    background: #080808;
     z-index: -1;
 }
 
 #work-section {
     background-size: cover;
-    background: #6b6b6b;
+    background: #080808;
     height: 100%;
     width: 100%;
     padding-top: 50px;
@@ -109,13 +118,13 @@ body, html {
 }
 
 .row {
-    background: #6b6b6b;
+    background: #080808;
     padding-bottom: 20px;
 }
 
 .col-md-6 {
     padding-bottom: 20px;
-    background: #6b6b6b;
+    background: #080808;
 }
 
 .demo-card-wide.mdl-card {
@@ -135,16 +144,8 @@ body, html {
     background: #101010;
 }
 
-.mdl-button .mdl-button--colored .mdl-js-button .mdl-js-ripple-effect {
-    color: white;
-    background: white;
-}
-
-#mountains {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    z-index: -1;
+#card_title{
+    color: #ffffff;
 }
 
 #pf-description {
@@ -169,16 +170,13 @@ body, html {
     text-decoration: none;
 }
 
-#fb-button2 {
-    color: white;
-    text-decoration: none;
+#iSwapme {
+    background: url('../images/iSwapMe.png') center / cover;
 }
 
-#ps-button2 {
-    color: white;
-    text-decoration: none;
+#perfectFit {
+    background: url('../images/perfect_fit.jpg') center / cover;
 }
-
 
 
 @media only screen and (max-width: 600px) {
