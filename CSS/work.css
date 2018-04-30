@@ -178,7 +178,17 @@ body, html {
     background: url('../images/perfect_fit.jpg') center / cover;
 }
 
+#codeLibrary {
+    background: url('../images/codelibrary.png') center / cover;
+}
 
+#rememberdogs {
+    background: url('../images/rememberdogs.png') center/ cover;
+}
+
+#ChatApp {
+    background: url('../images/ChatApp.png') center / cover;
+}
 @media only screen and (max-width: 600px) {
     #i-text {
         font-family: 'Roboto', sans-serif;
