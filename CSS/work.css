@@ -191,7 +191,7 @@ body, html {
 }
 
 #ShareWeb {
-    background: url('../images/dashboard.JPG') center / cover;
+    background: url('../images/shareweb.jpg') center / cover;
 }
 @media only screen and (max-width: 600px) {
     #i-text {
