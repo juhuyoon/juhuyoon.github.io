@@ -186,8 +186,12 @@ body, html {
     background: url('../images/rememberdogs.png') center/ cover;
 }
 
-#ChatApp {
-    background: url('../images/ChatApp.png') center / cover;
+#preTendtris {
+    background: url('../images/preTendtris.JPG') center / cover;
+}
+
+#ShareWeb {
+    background: url('../images/dashboard.JPG') center / cover;
 }
 @media only screen and (max-width: 600px) {
     #i-text {
